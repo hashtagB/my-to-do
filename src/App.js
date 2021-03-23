@@ -1,10 +1,18 @@
 import React from 'react';
 import './App.css';
 
+//importing components
+import Form from './components/Form';
+import ToDoList from './components/TodoList';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <header>
+        <h1>My Todo List</h1>
+      </header>
+      <Form />
+      <ToDoList />
     </div>
   );
 }
